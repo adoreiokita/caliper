@@ -11,6 +11,14 @@
 |
 */
 
+Route::get('nino', function () {
+    return view('mantenedores/prueba');
+});
+
+Route::get('prueba2', function () {
+    return view('mantenedores/prueba2');
+});
+
 
 /*******************************/
 /**         LOGIN            **/
